@@ -75,4 +75,4 @@ while True:
             online = False
             print(f'~{datetime.now().strftime(DATETIME_FORMAT)}: User went offline.')
         last_offline = None
-    sleep(15)
+    sleep(1)
