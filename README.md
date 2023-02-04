@@ -17,6 +17,8 @@ How to run
 
 First install the dependencies. You'll need Python 3 (at least 3.6) and [Telethon](https://github.com/LonamiWebs/Telethon) package.
 
+If u Windows user go to unpacking folder, then in search folder open cmd.
+
 Telethon can be installed with pip:
 
     $ pip install --user telethon
