@@ -17,11 +17,17 @@ How to run
 
 First install the dependencies. You'll need Python 3 (at least 3.6) and [Telethon](https://github.com/LonamiWebs/Telethon) package.
 
+If u Windows user go to unpacking folder, then in search folder open cmd.
+
 Telethon can be installed with pip:
 
     $ pip install --user telethon
 
 ...or possibly from your distribution repositories.
+
+Update requirements.txt
+
+    $ pip install -r requirements.txt
 
 Then you need to register your Telegram application on the [Telegram website](https://my.telegram.org/apps). After you have acquired `api_id` and `api_hash`, put them into `settings/keys.py` like this:
 
