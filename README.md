@@ -23,6 +23,9 @@ Telethon can be installed with pip:
 
 ...or possibly from your distribution repositories.
 
+Update requirements.txt
+    $ pip install -t requirements.txt
+
 Then you need to register your Telegram application on the [Telegram website](https://my.telegram.org/apps). After you have acquired `api_id` and `api_hash`, put them into `settings/keys.py` like this:
 
     API_ID = 123456
